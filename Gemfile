@@ -40,4 +40,4 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 
 # React Rails
-gem 'react-rails', '~> 1.0'
+gem 'react-rails', '~> 1.6.1'

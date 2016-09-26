@@ -30,7 +30,7 @@ GEM
     arel (5.0.1.20140414130214)
     autoprefixer-rails (6.4.1.1)
       execjs
-    babel-source (5.8.34)
+    babel-source (5.8.35)
     babel-transpiler (0.7.0)
       babel-source (>= 4.0, < 6)
       execjs (~> 2.0)
@@ -85,7 +85,7 @@ GEM
     rake (11.3.0)
     rdoc (4.2.2)
       json (~> 1.4)
-    react-rails (1.5.0)
+    react-rails (1.6.2)
       babel-transpiler (>= 0.7.0)
       coffee-script-source (~> 1.8)
       connection_pool
@@ -132,7 +132,7 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   rails (= 4.1.16)
-  react-rails (~> 1.0)
+  react-rails (~> 1.6.1)
   sass-rails (>= 3.2)
   sdoc (~> 0.4.0)
   spring
