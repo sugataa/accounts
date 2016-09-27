@@ -8,7 +8,7 @@ var Records = React.createClass({
   },
 
   addRecord: function(record) {
-    var record = this.records.slice();
+    var records = this.state.records.slice();
     records.push(record);
     this.setState({ records: records });
   },
@@ -19,6 +19,7 @@ var Records = React.createClass({
       <h2 className='title'>
         Records
       </h2>
+      <RecordForm handleNewRecord={this.addRecord} />
       <table className="table table-bordered">
         <thead>
           <tr>
@@ -34,7 +35,6 @@ var Records = React.createClass({
         </tbody>
       </table>
      </div>
-    )
+    );
   }
-
-})
+});
