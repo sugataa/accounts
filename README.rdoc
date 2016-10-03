@@ -7,3 +7,5 @@ I used the following repo as a reference for the JSX implementation:
 JSX Source: https://github.com/rrunyon/accounts-react-rails-jsx
 
 Tutorial: www.airpair.com/reactjs/posts/reactjs-a-guide-for-rails-developers
+
+rdoc-image:https://raw.githubusercontent.com/sugataa/accounts/master/demo.png
